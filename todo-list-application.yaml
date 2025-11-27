@@ -12,10 +12,10 @@ spec:
     helm:
       parameters:
         - name: backend.image.tag
-          value: "v1.0"
+          value: "61a0332"
   destination:
     server: https://kubernetes.default.svc
-    namespace: default  # 👈 이 줄 추가!
+    namespace: default # 👈 이 줄 추가!
   syncPolicy:
     automated:
       prune: true
