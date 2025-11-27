@@ -12,7 +12,7 @@ spec:
     helm:
       parameters:
         - name: backend.image.tag
-          value: "61a0332"
+          value: "2effa4f"
   destination:
     server: https://kubernetes.default.svc
     namespace: default # 👈 이 줄 추가!
