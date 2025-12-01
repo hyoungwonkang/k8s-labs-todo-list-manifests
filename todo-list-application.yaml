@@ -13,9 +13,11 @@ spec:
       parameters:
         - name: backend.image.tag
           value: "2effa4f"
+        - name: frontend.image.tag
+          value: "2effa4f"
   destination:
     server: https://kubernetes.default.svc
-    namespace: default # 👈 이 줄 추가!
+    namespace: default
   syncPolicy:
     automated:
       prune: true
