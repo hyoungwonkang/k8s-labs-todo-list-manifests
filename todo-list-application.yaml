@@ -14,7 +14,7 @@ spec:
         - name: backend.image.tag
           value: "2effa4f"
         - name: frontend.image.tag
-          value: "2effa4f"
+          value: "5978174"
   destination:
     server: https://kubernetes.default.svc
     namespace: default
