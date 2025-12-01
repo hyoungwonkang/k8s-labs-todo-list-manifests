@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/hyoungwonkang/k8s-labs-v1.git
     targetRevision: main
-    path: 'apps/todo-list/backend/helm/todo-list-chart'
+    path: 'apps/todo-list/todo-list-chart'
     helm:
       parameters:
         - name: backend.image.tag
